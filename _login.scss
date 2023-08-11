@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding-left: 174px;
+}
+
+.login {
+    display: flex;
+}
+
+.login_img {
+    margin-right: 200px;
+    margin-top: 100px;
+    width: 500px;
+    height: 500px;
+}
+
+.login_card {
+    padding-left: 55px;
+    margin-top: 42px;
+    width: 788px;
+    height: 940px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08);
+}
+
+.login_title1 {
+    margin-top: 25px;
+    color: var(--black, #2F2F2F);
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135.5%;
+    /* 48.78px */
+}
+
+.login_title2 {
+    color: var(--primary-color, #6358DC);
+    font-family: Poppins;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 70%;
+    margin-bottom: 40px;
+}
+
+
+.btn {
+    margin-bottom: 30px;
+    border: transparent;
+    width: 470px;
+    height: 58px;
+    border-radius: 8px;
+    background: transparent;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.11);
+    color: var(--black, #2F2F2F);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135.5%;
+    /* 21.68px */
+}
+
+
+.lines {
+    gap: 15px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.line1 {
+    margin-top: 7px;
+    width: 200px;
+    height: 1px;
+    background: #BFBFBF;
+}
+
+.title {
+    color: var(--black, #2F2F2F);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135.5%;
+    margin-bottom: 25px;
+    /* 21.68px */
+}
+
+.line2 {
+    margin-top: 7px;
+    width: 200px;
+    height: 1px;
+    background: #BFBFBF;
+}
+
+form {
+    label {
+        display: block;
+        font-size: large;
+    }
+
+    input {
+        width: 470px;
+        height: 58px;
+        margin-top: 10px;
+        border-radius: 8px;
+        border: transparent;
+        background: #ECECEC;
+        margin-bottom: 15px;
+    }
+
+    span {
+        margin-bottom: 20px;
+        gap: 230px;
+        display: flex;
+
+
+        span {
+            display: flex;
+            gap: 3px;
+
+            .check {
+                width: 20px;
+                height: 20px;
+            }
+
+            label {
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .btn2 {
+        width: 470px;
+        height: 58px;
+        border-radius: 8px;
+        background: var(--primary-color, #6358DC);
+        border: transparent;
+        margin-bottom: 50px;
+    }
+}
+
+
+span {
+    display: flex;
+
+    p {
+        color: #000;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 135.5%;
+        /* 21.68px */
+        margin-left: 150px;
+    }
+
+}
